@@ -42,7 +42,7 @@ git add RNWA2020/assets/main.css
 
 4. Spremiti izmjene
 ```
-git commit -m "Ovdje napisti ime commit-a"
+git commit -m "Ovdje napisi ime commit-a"
 ```
 
 5. Slanje lokalnih promjena na vaš udaljeni repozitorij
