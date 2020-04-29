@@ -96,7 +96,7 @@
 
 								<!-- Content -->
 								<header>
-											<h2>Zadaca 1.0</h2>
+											<h2>Zadaca 1.2</h2>
 											
 								</header>
 									<article class="box post">
@@ -160,7 +160,10 @@
                                           </table>
 											<br>
 											<br>
-											<br>
+                                            <br>
+                                            <div id="redak">
+
+                                            </div>
 
 										
 										
@@ -171,7 +174,7 @@
 
 								<!-- Sidebar -->
 									<section class="box">
-										<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+										
 										<header>
 											<h3>Zadaca 1.1</h3>
 										</header>
@@ -180,16 +183,18 @@
                                             U table1.html datoteci ostaviti čisti HTML kod (ukloniti iz HTML-a sve JS handlere i funkcije, koristiti DOM metode bez JQ)
                                             </p>
 										<footer>
-											<a href="#" class="button alt">Dalje</a>
+											<a href="table1.html" class="button alt">Natrag</a>
 										</footer>
 									</section>
 									<section class="box">
 										<header>
-											<h3>Zadaca 1.2</h3>
+											<h3>Zadaca 1.3</h3>
 										</header>
-										<p>Modificirati datoteku table_default.html s JS akcijama na način da se klikom na bilo koju ćeliju u alert prozoru ispiše sadržaj cijelog retka u div sekciju ili paragraf ispod tablice (rješenje spremiti u novu datoteku table2.html);
-                                            JS kod izdvojiti u posebnu table2.js datoteku, koristiti DOM metode bez JQ;
-                                            </p>
+										<p>Modificirati datoteku table_default.html s JS akcijama na način da se prelalazak pokazivačem miša preko bilo kojeg retka tablice svi podaci iz tog retka ispisuju u zasebnom prozoru/tooltip-u ispred svih ostalih (u kojem je sadržaj retka ispisan  većim slovima, drugom bojom i sl….) 
+                                            Rješenje spremiti u novu datoteku table3.html;
+                                            JS kod izdvojiti u posebnu table3.js datoteku, koristiti DOM metode bez JQ;
+                                            Modificirati i css te izdvojiti u table3.css
+                                             </p>
 										
 										<footer>
 											<a href="#" class="button alt">Dalje</a>
@@ -232,20 +237,8 @@
 		</div>
 
         <!-- Scripts -->
-        <script type="text/javascript">
 
-            var table = document.getElementById("customers");
-            if (table != null) {
-                for (var i = 0; i < table.rows.length; i++) {
-                    for (var j = 0; j < table.rows[i].cells.length; j++)
-                    table.rows[i].cells[j].onclick = function () {
-                        alert(this.innerHTML);
-                    };
-                }
-            }
-            
-            console.log(table)
-            </script>
+            <script type="text/javascript" src="table2.js" ></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
