@@ -29,7 +29,7 @@ git status
 ```
 Rezultti bi trebao biti kao na slici
 
-![alt text](https://raw.githubusercontent.com/fsr-sp/sp-vjezbe/master/images/git_status.png)
+![alt text](https://d2wlcd8my7k9h4.cloudfront.net/media/images/d6a430a7-b6f8-4c70-9952-9904dcbfbaba.png)
 
 2. Spremiti sve datoteke na kojima ste napravili izmjene u Index
 ```
@@ -38,7 +38,7 @@ git add RNWA2020/assets/main.css
 ```
 3. Nakon što smo dodali datoteke spremi smo za commit. Git status bi trebao izgledati ovako:
 
-![alt text](https://raw.githubusercontent.com/fsr-sp/sp-vjezbe/master/images/git_added.png)
+![alt text](https://gxcuf89792.i.lithium.com/t5/image/serverpage/image-id/136656i2AB4541C280CF45C/image-size/large?v=1.0&px=999)
 
 4. Spremiti izmjene
 ```
