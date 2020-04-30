@@ -3,7 +3,7 @@
     text-decoration: none
 }
 .tip:hover {
-    cursor: cell;
+    cursor: move;
     position: relative;
 }
 .tip span {
