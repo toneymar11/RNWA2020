@@ -13,13 +13,13 @@
 #customers th {
     font-size: 1.1em;
     text-align: left;
-    padding-top: 5px;
-    padding-bottom: 4px;
+    padding-top: 6px;
+    padding-bottom: 5px;
     background-color: #A7C942;
     color: #ffffff;
 }
 
 #customers tr.alt td {
     color: #000000;
-    background-color: #EAF2D3;
+    background-color:red;
 }
